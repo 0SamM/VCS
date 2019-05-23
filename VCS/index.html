@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css?family=Macondo+Swash+Caps&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/vcs.css">
+    <title>VCS</title>
+</head>
+
+<body>
+
+    <h1>VCS | 0SamM | May 2019</h1>
+    <h2>The difference between Git and GitHub</h2>
+
+    <p>
+        Git is a distributed version control tool that can manage a development project's source code history, while
+        GitHub is a cloud based platform built around the Git tool. Git is a tool a developer installs locally on their
+        computer, while GitHub is an online service that stores code pushed to it from computers running the Git tool.
+        The key difference between Git and GitHub is that Git is an open-source tool developers install locally to
+        manage source code, while GitHub is an online service to which developers who use Git can connect and upload or
+        download resources.
+    </p>
+
+    <p>
+        Information comes from <a href="https://www.theserverside.com/video/Git-vs-GitHub-What-is-the-difference-between-them">here</a>
+    </p>
+
+    <h3>Steps to install Git:</h3>
+    <ol>
+        <li>
+            <pre><font color="#8AE234"><b>compsci@compsci-VBox</b></font>:<font color="#729FCF"><b>~/Desktop/samm/projects/VCS</b></font>$ sudo apt install git
+    </pre>
+        </li>
+        <li>
+            <pre><font color="#8AE234"><b>compsci@compsci-VBox</b></font>:<font color="#729FCF"><b>~/Desktop/samm/projects/VCS</b></font>$ git --version</pre>
+        </li>
+        <li>
+            <pre><font color="#8AE234"><b>compsci@compsci-VBox</b></font>:<font color="#729FCF"><b>~/Desktop/samm/projects/VCS</b></font>$ git config --global user.name &quot;[your username]&quot;</pre>
+        </li>
+        <li>
+            <pre><font color="#8AE234"><b>compsci@compsci-VBox</b></font>:<font color="#729FCF"><b>~/Desktop/samm/projects/VCS</b></font>$ git config --global user.email &quot;[your email]&quot;</pre>
+        </li>
+        <li>
+            <pre><font color="#8AE234"><b>compsci@compsci-VBox</b></font>:<font color="#729FCF"><b>~/Desktop/samm/projects/VCS</b></font>$ git config --list</pre>
+        </li>
+        <li>
+            (Use this to delete all git work.)
+            <pre><font color="#8AE234"><b>compsci@compsci-VBox</b></font>:<font color="#729FCF"><b>~/Desktop/samm/projects/VCS</b></font>$ rm -rf .git</pre>
+        </li>
+        <li>
+            <pre><font color="#8AE234"><b>compsci@compsci-VBox</b></font>:<font color="#729FCF"><b>~/Desktop/samm/projects/VCS</b></font>$ git status</pre>
+        </li>
+        <li>
+            <pre><font color="#8AE234"><b>compsci@compsci-VBox</b></font>:<font color="#729FCF"><b>~/Desktop/samm/projects/VCS</b></font>$ touch .gitignore</pre>
+        </li>
+        <li>
+            <pre><font color="#8AE234"><b>compsci@compsci-VBox</b></font>:<font color="#729FCF"><b>~/Desktop/samm/projects/VCS</b></font>$ git gedit .gitignore</pre>
+        </li>
+        <li>
+            <pre><font color="#8AE234"><b>compsci@compsci-VBox</b></font>:<font color="#729FCF"><b>~/Desktop/samm/projects/VCS</b></font>$ git reset
+            </pre>
+        </li>
+        <li>
+            <pre><font color="#8AE234"><b>compsci@compsci-VBox</b></font>:<font color="#729FCF"><b>~/Desktop/samm/projects/VCS</b></font>$ git commit -m &quot;Initial commit&quot;</pre>
+        </li>
+    </ol>
+</body>
+
+</html>
